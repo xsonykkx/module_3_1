@@ -10,6 +10,13 @@ def string_info(string):
 
 def is_contains(string, list_to_search):
     print(string)
+    count_calls()
+    lower_string = string.lower()
+    lower_list = [item.lower() for item in list_to_search]
+    if lower_string in lower_list:
+        print(True)
+    else:
+        print(False)
 
 
 
